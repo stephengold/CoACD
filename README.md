@@ -4,6 +4,8 @@
  [![Build](https://github.com/SarahWeiii/CoACD/actions/workflows/build.yml/badge.svg)](https://github.com/SarahWeiii/CoACD/actions/workflows/build.yml)
  ![PyPI - Downloads](https://img.shields.io/pypi/dm/coacd)
 
+[***News (2026-09)***] Check our new library, [CuACD](https://github.com/eliphatfs/cuacd) (SIGGRAPH Asia 2026) — a fully GPU-resident ACD implementing the same lookahead-search formulation as CoACD, up to ~100× faster (~0.25s per mesh on an RTX 4090) at matched or better quality. `pip install cuacd` (NVIDIA GPU required)!
+
 [***News (2026-04)***] CoACD now supports real metric mode (`-rm`), ideal for meshes in real-world scale (e.g., from 3D scans or CAD models in meters). Specify the concavity threshold directly in meters instead of normalized units!
 
 [***News (2025-09)***] Check our new library, [PaMO](https://github.com/SarahWeiii/pamo.git), which converts any mesh into a low-poly, manifold, intersection-free mesh in seconds (CUDA required). It’s perfect as a preprocessing tool for CoACD.
